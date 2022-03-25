@@ -5,20 +5,29 @@
     height:100%;
 }
 
+/* div esquerda pagina */
+#sobreapp #esquerda {
+    float:left;
+    border: 1px solid cornflowerblue;
+    width:50%;
+    height:100%;
+}
+
 /* div direita pagina */
 #sobreapp #direita {
-    border: 1px solid;
+    float:right;
+    border: 1px solid black;
     float:right;
     width:50%;
     height:100%;
-    padding:30px;
+    padding-top:40px;
 }
 /* div img na direita */
 #sobreapp #direita img {
     position:relative;
+    width:300px;
+    height:545px;
     display:block;
-    width:304px;
-    height:550px;
     margin-left:auto;
     margin-right:auto;
 }
