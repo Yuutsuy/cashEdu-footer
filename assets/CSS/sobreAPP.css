@@ -8,18 +8,19 @@
 /* div esquerda pagina */
 #sobreapp #esquerda {
     float:left;
-    border: 1px solid cornflowerblue;
     width:50%;
     height:100%;
+    padding-left:70px;
 }
 /* div geral de Sobre o app */
 #sobreapp #esquerda #infos-sobre {
-    border: 1px solid;
     display:block;
     width:100%;
     height:fit-content;
     margin-top:150px;
     text-align:center;
+    padding-left:80px;
+    padding-right:80px;
 }
 /* div sobre o app */
 #sobreapp #esquerda #infos-sobre #titulo-sobre h3{
@@ -27,25 +28,29 @@
     font-size:45px;
     color: #3f5166
 }
+/* div esquerda paragrafo */
 #sobreapp #esquerda #infos-sobre .paragraf{
     margin-top:20px;
-    color: #8d96b1
+    color: #8d96b1;
+    font-size:20px;
+}
+/* div esquerda store */
+#sobreapp #esquerda #infos-sobre #store {
+    margin-top:60px;
 }
 
 /* div direita pagina */
 #sobreapp #direita {
     float:right;
-    border: 1px solid black;
     float:right;
     width:50%;
     height:100%;
-    padding-top:40px;
 }
 /* div img na direita */
 #sobreapp #direita img {
     position:relative;
-    width:300px;
-    height:545px;
+    width:308px;
+    height:610px;
     display:block;
     margin-left:auto;
     margin-right:auto;
