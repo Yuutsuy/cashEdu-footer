@@ -12,6 +12,23 @@
     width:50%;
     height:100%;
 }
+/* div geral de Sobre o app */
+#sobreapp #esquerda #infos-sobre {
+    border: 1px solid;
+    display:block;
+    width:100%;
+    height:50%;
+    margin-top:150px;
+    text-align:center;
+}
+/* div sobre o app */
+#sobreapp #esquerda #infos-sobre #titulo-sobre h3{
+    text-transform:uppercase;
+    font-size:45px;
+}
+#sobreapp #esquerda #infos-sobre p{
+    margin-top:20px;
+}
 
 /* div direita pagina */
 #sobreapp #direita {
