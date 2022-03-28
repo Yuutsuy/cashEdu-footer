@@ -112,17 +112,20 @@ footer #rodapé #estudantes #descrição ul li p {
 footer #rodapé #perguntas .descrição {
     border-bottom:2px solid;
 }
+/* altera div redes dentro de footer */
 footer #rodapé #redes {
     position:relative;
     height:100%;
     left:10%;
     margin-left:15px;
 }
+/* altera os spans dentro de icons */
 footer #rodapé #redes #icons span {
     border-radius:3px;
     width:50%;
     display:flex;
 }
+/* 1 */
 footer #rodapé #redes #icons span i {
     border:1px solid white;
     font-size:30px;
