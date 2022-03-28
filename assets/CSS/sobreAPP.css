@@ -108,6 +108,24 @@ footer #rodapé .descrição ul li i {
 footer #rodapé #estudantes #descrição ul li p {
     border-bottom: 1px solid #F5FAFF;
 }
+/* estiliza apenas o titulo da div perguntas */
 footer #rodapé #perguntas .descrição {
     border-bottom:2px solid;
+}
+footer #rodapé #redes {
+    position:relative;
+    height:100%;
+    left:10%;
+    margin-left:15px;
+}
+footer #rodapé #redes #icons span {
+    border-radius:3px;
+    width:50%;
+    display:flex;
+}
+footer #rodapé #redes #icons span i {
+    border:1px solid white;
+    font-size:30px;
+    border-radius:4px;
+    margin:10px;
 }
