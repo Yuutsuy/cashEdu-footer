@@ -4,9 +4,9 @@
     width:100%;
     height:100%;
 }
-
 /* div esquerda pagina */
 #sobreapp #esquerda {
+    position:relative;
     float:left;
     width:50%;
     height:100%;
@@ -14,9 +14,7 @@
 }
 /* div geral de Sobre o app */
 #sobreapp #esquerda #infos-sobre {
-    display:block;
     width:100%;
-    height:fit-content;
     margin-top:150px;
     text-align:center;
     padding-left:80px;
@@ -38,7 +36,6 @@
 #sobreapp #esquerda #infos-sobre #store {
     margin-top:60px;
 }
-
 /* div direita pagina */
 #sobreapp #direita {
     float:right;
@@ -49,9 +46,62 @@
 /* div img na direita */
 #sobreapp #direita img {
     position:relative;
-    width:308px;
-    height:610px;
+    width:46%;
     display:block;
     margin-left:auto;
     margin-right:auto;
+}
+
+/* rodapé */
+footer {
+    display:block;
+    height:57%;
+    bottom:0;
+    background-color:#3f5166;
+}
+/* div dentro de footer */
+footer #rodapé{
+    display:flex;
+    padding:50px;
+    height:100%;
+    width:100%;
+}
+/* div da imagem */
+footer #rodapé #logo {
+    height:100%;
+    width:20%;
+}
+/* imagem dentro da div logo */
+footer #rodapé #logo img {
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25%;
+}
+/* div estudantes */
+footer #rodapé #estudantes {
+    color:#F5FAFF;
+    height:100%;
+    width:20%;
+    font-size:18px;
+}
+
+footer #rodapé #estudantes #descrição {
+    margin-left:55px;
+}
+
+footer #rodapé #estudantes #descrição ul {
+    list-style:none;
+}
+footer #rodapé #estudantes #descrição ul li{
+    display:flex;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+footer #rodapé #estudantes #descrição ul li i {
+    color:#7eb8d7
+}
+footer #rodapé #estudantes #descrição ul li p {
+    border-bottom: 1px solid #F5FAFF;
 }
