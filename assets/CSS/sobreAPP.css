@@ -61,6 +61,8 @@ footer {
 }
 /* div dentro de footer */
 footer #rodapé{
+    color:#F5FAFF;
+    font-size:18px;
     display:flex;
     padding:50px;
     height:100%;
@@ -81,27 +83,31 @@ footer #rodapé #logo img {
 }
 /* div estudantes */
 footer #rodapé #estudantes {
-    color:#F5FAFF;
     height:100%;
     width:20%;
-    font-size:18px;
 }
-
-footer #rodapé #estudantes #descrição {
+/* class descrição em estudantes */
+footer #rodapé .descrição {
     margin-left:55px;
 }
-
-footer #rodapé #estudantes #descrição ul {
+/* tag ul na class descrição */
+footer #rodapé .descrição ul {
     list-style:none;
 }
-footer #rodapé #estudantes #descrição ul li{
+/* tag li em tag ul */
+footer #rodapé .descrição ul li{
     display:flex;
     margin-top:15px;
     margin-bottom: 15px;
 }
-footer #rodapé #estudantes #descrição ul li i {
+/* i em li */
+footer #rodapé .descrição ul li i {
     color:#7eb8d7
 }
+/* p em li */
 footer #rodapé #estudantes #descrição ul li p {
     border-bottom: 1px solid #F5FAFF;
+}
+footer #rodapé #perguntas .descrição {
+    border-bottom:2px solid;
 }
